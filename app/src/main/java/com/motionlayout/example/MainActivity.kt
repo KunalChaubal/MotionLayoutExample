@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setClickListener() {
-        // Apply default transition
+        // Apply default transition on app launch
         motion_layout.setTransition(motion_layout.currentState, R.id.home_expand)
         motion_layout.transitionToEnd()
 
